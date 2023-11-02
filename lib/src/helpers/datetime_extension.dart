@@ -5,51 +5,51 @@ const kNumberOfWeekday = 7;
 const kNumberOfMonth = 12;
 
 const kWeekdayNames = <String>[
-  "Sunday",
-  "Monday",
-  "Tuesday",
-  "Wednesday",
-  "Thursday",
-  "Friday",
-  "Saturday"
+  "Domenica",
+  "Lunedì",
+  "Martedì",
+  "Mercoledì",
+  "Giovedì",
+  "Venerdì",
+  "Sabato"
 ];
 const kWeekdayShortNames = <String>[
-  "Sun",
-  "Mon",
-  "Tue",
-  "Wed",
-  "Thu",
-  "Fri",
-  "Sat"
+  "Dom",
+  "Lun",
+  "Mar",
+  "Mer",
+  "Gio",
+  "Ven",
+  "Sab"
 ];
-const kWeekdayAbbreviations = <String>["S", "M", "T", "W", "T", "F", "S"];
+const kWeekdayAbbreviations = <String>["D", "L", "M", "M", "G", "V", "S"];
 const kMonthNames = <String>[
-  "January",
-  "February",
-  "March",
-  "April",
-  "May",
-  "June",
-  "July",
-  "August",
-  "September",
-  "October",
-  "November",
-  "December"
+  "Gennaio",
+  "Febbraio",
+  "Marzo",
+  "Aprile",
+  "Maggio",
+  "Giugno",
+  "Luglio",
+  "Agosto",
+  "Settembre",
+  "Ottobre",
+  "Novembre",
+  "Dicembre"
 ];
 const kMonthShortNames = <String>[
-  "Jan",
+  "Gen",
   "Feb",
   "Mar",
   "Apr",
-  "May",
-  "Jun",
-  "Jul",
-  "Aug",
-  "Sep",
-  "Oct",
+  "Mag",
+  "Giu",
+  "Lug",
+  "Ago",
+  "Set",
+  "Ott",
   "Nov",
-  "Dec"
+  "Dic"
 ];
 
 extension DateTimeExtension on DateTime {
