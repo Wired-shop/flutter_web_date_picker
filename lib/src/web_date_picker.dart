@@ -71,7 +71,7 @@ class _WebDatePickerState extends State<_WebDatePicker> {
   }
 
   List<Widget> _buildDaysOfMonthCells(ThemeData theme) {
-    final textStyle = theme.textTheme.bodySmall?.copyWith(color: Colors.black);
+    final textStyle = theme.textTheme.bodySmall;
     final now = DateTime.now();
     final monthDateRange =
         _startDate.monthDateTimeRange(includeTrailingAndLeadingDates: true);
@@ -126,7 +126,7 @@ class _WebDatePickerState extends State<_WebDatePicker> {
   }
 
   List<Widget> _buildMonthsOfYearCells(ThemeData theme) {
-    final textStyle = theme.textTheme.bodySmall?.copyWith(color: Colors.black);
+    final textStyle = theme.textTheme.bodySmall;
     final borderRadius = BorderRadius.circular(_childSize!.height / 4 - 32);
     final children = <Widget>[];
     final now = DateTime.now();
@@ -173,7 +173,7 @@ class _WebDatePickerState extends State<_WebDatePicker> {
   }
 
   List<Widget> _buildYearsCells(ThemeData theme) {
-    final textStyle = theme.textTheme.bodySmall?.copyWith(color: Colors.black);
+    final textStyle = theme.textTheme.bodySmall;
     final borderRadius = BorderRadius.circular(_childSize!.height / 5 - 16);
     final children = <Widget>[];
     final now = DateTime.now();
@@ -221,7 +221,7 @@ class _WebDatePickerState extends State<_WebDatePicker> {
   }
 
   List<Widget> _buildYearsOfCenturyCells(ThemeData theme) {
-    final textStyle = theme.textTheme.bodySmall?.copyWith(color: Colors.black);
+    final textStyle = theme.textTheme.bodySmall;
     final borderRadius = BorderRadius.circular(_childSize!.height / 5 - 16);
     final children = <Widget>[];
     final now = DateTime.now();
