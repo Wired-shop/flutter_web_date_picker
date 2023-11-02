@@ -451,7 +451,7 @@ class _WebDatePickerState extends State<_WebDatePicker> {
                 /// CANCEL
                 TextButton(
                   onPressed: () => Navigator.of(context).pop(),
-                  child: const Text("CANCEL"),
+                  child: const Text("Annulla"),
                 ),
 
                 /// OK
@@ -459,7 +459,7 @@ class _WebDatePickerState extends State<_WebDatePicker> {
                   const SizedBox(width: 4.0),
                   TextButton(
                     onPressed: () => Navigator.of(context).pop(_selectedDate),
-                    child: const Text("OK"),
+                    child: const Text("Conferma"),
                   ),
                 ],
               ],
