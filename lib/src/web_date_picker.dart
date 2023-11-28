@@ -321,7 +321,7 @@ class _WebDatePickerState extends State<_WebDatePicker> {
           child: Text(
             "${kMonthNames[_startDate.month - 1]} ${_startDate.year}",
             style: theme.textTheme.bodyLarge
-                ?.copyWith(color: Colors.black, fontWeight: FontWeight.bold),
+                ?.copyWith( fontWeight: FontWeight.bold),
           ),
         );
         final monthDateRange = _startDate.monthDateTimeRange(
@@ -337,7 +337,7 @@ class _WebDatePickerState extends State<_WebDatePicker> {
           child: Text(
             _startDate.year.toString(),
             style: theme.textTheme.bodyLarge
-                ?.copyWith(color: Colors.black, fontWeight: FontWeight.bold),
+                ?.copyWith(fontWeight: FontWeight.bold),
           ),
         );
         isFirst = _startDate.year <= widget.firstDate.year;
@@ -354,7 +354,7 @@ class _WebDatePickerState extends State<_WebDatePicker> {
           child: Text(
             "$year - ${year + 19}",
             style: theme.textTheme.bodyLarge
-                ?.copyWith(color: Colors.black, fontWeight: FontWeight.bold),
+                ?.copyWith(fontWeight: FontWeight.bold),
           ),
         );
         nextView = widget.lastDate.year - widget.firstDate.year > 20;
@@ -369,7 +369,7 @@ class _WebDatePickerState extends State<_WebDatePicker> {
           child: Text(
             "$year - ${year + 199}",
             style: theme.textTheme.bodyLarge
-                ?.copyWith(color: Colors.black, fontWeight: FontWeight.bold),
+                ?.copyWith(fontWeight: FontWeight.bold),
           ),
         );
         nextView = false;
